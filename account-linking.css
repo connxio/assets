@@ -1,0 +1,27 @@
+
+.auth0-lock-overlay {
+  background: #ffffff !important;
+}
+.auth0-lock-widget {
+  box-shadow: none;
+}
+.auth0-lock-widget, .auth0-lock-header-bg, .auth0-lock-header-bg-solid {
+  background: #ffffff;
+}
+.auth0-lock-submit {
+  background-color: #009c6d;
+  border-radius: 10px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+}
+.auth0-lock-submit:hover .auth0-label-submit {
+  transform: scale(1) !important;
+}
+.auth0-lock-submit:active {
+  transform: scale(0.95);
+}
+.auth0-label-submit {
+  height: unset;
+  line-height: unset;
+}
